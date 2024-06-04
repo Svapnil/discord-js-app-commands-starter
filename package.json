@@ -1,0 +1,22 @@
+{
+  "name": "discord-js-app-commands-starter",
+  "module": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/app.ts",
+    "dev": "bun --inspect --watch src/app.ts",
+    "lint": "prettier --cache --check . && eslint src --ext mjs,js,ts --cache",
+    "format": "prettier --cache --write . && eslint src --ext mjs,js,ts --fix --cache",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
