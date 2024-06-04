@@ -18,4 +18,3 @@ client.on(Events.ClientReady, () => {
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);
-
