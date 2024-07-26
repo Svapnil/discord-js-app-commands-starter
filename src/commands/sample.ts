@@ -1,5 +1,5 @@
 import { ChatInputCommandInteraction } from "discord.js";
-import { SampleWidget } from "./widgets/SampleWidget";
+import { SampleWidget } from "../lib/widgets/SampleWidget";
 
 export default async (interaction: ChatInputCommandInteraction) => {
   // Response to the buy command is ephemeral

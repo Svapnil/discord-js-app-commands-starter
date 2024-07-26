@@ -1,6 +1,6 @@
 import { Events, Client, GatewayIntentBits, Interaction } from "discord.js";
 import dotenv from "dotenv";
-import sample from "./lib/sample";
+import sample from "./commands/sample";
 import { Logger } from "./lib/log";
 
 dotenv.config();
